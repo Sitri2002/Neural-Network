@@ -139,7 +139,7 @@ def network():
         b -= learning_rate * dcms_db
 
         #  error testing 
-        if i % 10 == 0:
+        if i % 100 == 0:
             cost_sum = 0
             for j in range(len(validation_data)):
                 validation_ind = np.random.randint(len(validation_data))
@@ -148,8 +148,8 @@ def network():
                 pred = sigmoid(r)
                 target = point[4]
                 cost_sum += np.square(pred- target)
-            costs.append(cost_sum)
-    plt.plot(costs/len(validation_data))
+            costs.append(cost_sum/len(validation_data))
+    plt.plot(costs)
     plt.xlabel('# of tests per 100 iteration')
     plt.ylabel('# Mean error squared')
     plt.show()
