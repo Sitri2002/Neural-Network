@@ -1,5 +1,8 @@
 # Neural-Network
-A simple logistic regression model from formula I derived with partial derivatives of inputs to find gradient descent.
+A simple model with signmoid activation function and mean squared error loss function. This model does matrix 
+multiplication and other algebraic calculations with miminmal numpy usage, but definitely can be converted
+to one. I did it this way to test my knowledge on matrices in neural networks, but it would be far cleander code
+with numpy.
 
 This is used to predict if someone would survive the Titanic based on influences such as: age, sex, socio-economic
 status, and family on-board. Data sets used is included.
