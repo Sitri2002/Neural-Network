@@ -18,3 +18,8 @@ MIT OpenCourseware on machine learning, and the guest lectures of Lex Fridman wa
 concepts in a neural network.
 
 Many other researchers way smarter and more talented than me whose paper helped with fine tuning the model.
+
+![Accuracy-Titanic](https://user-images.githubusercontent.com/83039954/205433197-907a32de-fa68-4b82-98be-52a05e83547e.png)
+
+![MSE-Titanic](https://user-images.githubusercontent.com/83039954/205433203-b8b58241-8c65-4bd9-83c3-f62d81db04fb.png)
+
